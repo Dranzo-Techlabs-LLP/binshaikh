@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title data-t="meta.contact.title">Contact Us — Bin Shaikh International</title>
+<meta name="description" data-t="meta.contact.desc" content="Contact Bin Shaikh International — WhatsApp, phone, email and Instagram. Offices in Jeddah, Tabuk and Jazan, Saudi Arabia, and Nilambur, Kerala, India.">
+<meta name="theme-color" content="#060a2b">
+<link rel="alternate" hreflang="en" href="contact.html">
+<link rel="alternate" hreflang="ar" href="contact.html?lang=ar">
+<link rel="icon" type="image/png" href="assets/brand/favicon.png">
+<link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+<script src="assets/js/boot.js?v=2"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/css/style.css?v=2">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script defer src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script defer src="assets/js/i18n-ar.js?v=2"></script>
+<script defer src="assets/js/packs.js?v=2"></script>
+<script defer src="assets/js/map.js?v=2"></script>
+<script defer src="assets/js/main.js?v=2"></script>
+</head>
+<body data-page="contact">
+<main id="main">
+
+  <section class="page-hero" aria-labelledby="page-title" style="min-height:min(70svh,640px)">
+    <div class="page-hero__media"><img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=2000&q=75" srcset="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=70 1000w, https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=2000&q=75 2000w" sizes="100vw" width="2000" height="1333" alt="Container ship docked at a port" fetchpriority="high"></div>
+    <div class="container page-hero__inner">
+      <ol class="breadcrumb" role="list"><li><a href="index.html" data-t="nav.home">Home</a></li><li aria-current="page" data-t="nav.contact">Contact</li></ol>
+      <p class="eyebrow" data-t="contact.hero.eyebrow">Contact us</p>
+      <h1 class="h1 page-hero__title" id="page-title" data-split data-t="contact.hero.title">Let's start <em>a conversation.</em></h1>
+      <p class="lead" data-t="contact.hero.lead">Importers, wholesalers, retailers and suppliers — reach us on the channel you prefer. We usually reply within one business day.</p>
+    </div>
+  </section>
+
+  <section class="section section--tight" aria-label="Contact channels">
+    <div class="container">
+      <div class="contact-grid" data-reveal data-stagger>
+        <a class="contact-card contact-card--wa" href="#" data-cfg="wa" target="_blank" rel="noopener">
+          <span class="contact-card__icon" data-icon="whatsapp"></span>
+          <span><small>WhatsApp</small><br><b><bdi data-cfg-text="whatsappDisplay"></bdi></b></span>
+          <span class="link-arrow" style="color:#1a8f48"><span data-t="cta.chat">Start a chat</span><span data-icon="arrow"></span></span>
+        </a>
+        <a class="contact-card" href="#" data-cfg="telSA">
+          <span class="contact-card__icon" data-icon="phone"></span>
+          <span><small data-t="contact.call">Call · Saudi Arabia</small><br><b><bdi data-cfg-text="phoneSA"></bdi></b></span>
+          <span class="link-arrow"><span data-t="cta.call">Call now</span><span data-icon="arrow"></span></span>
+        </a>
+        <a class="contact-card" href="#" data-cfg="mail">
+          <span class="contact-card__icon" data-icon="mail"></span>
+          <span><small data-t="contact.email">Email</small><br><b data-cfg-text="email"></b></span>
+          <span class="link-arrow"><span data-t="cta.email">Send an email</span><span data-icon="arrow"></span></span>
+        </a>
+        <a class="contact-card contact-card--ig" href="#" data-cfg="ig" target="_blank" rel="noopener">
+          <span class="contact-card__icon" data-icon="instagram"></span>
+          <span><small>Instagram</small><br><b data-cfg-text="ig"></b></span>
+          <span class="link-arrow" style="color:#b4235f"><span data-t="cta.follow">Follow us</span><span data-icon="arrow"></span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--ivory" aria-labelledby="form-title">
+    <div class="container">
+      <div class="split" style="align-items:start">
+        <div class="form-card" data-reveal>
+          <div class="section-head" style="margin-bottom:2rem">
+            <p class="eyebrow" data-t="form.eyebrow">Business enquiry</p>
+            <h2 class="h3" id="form-title" data-t="form.title">Tell us what you're looking for</h2>
+            <p class="muted" data-t="form.lead">Fill in the details and send them to us instantly via WhatsApp or email.</p>
+          </div>
+          <form class="form" id="enquiry-form" novalidate>
+            <div class="form__row">
+              <div class="field">
+                <label for="f-name"><span data-t="form.name">Name</span><span class="req" aria-hidden="true">*</span></label>
+                <input id="f-name" name="name" type="text" autocomplete="name" required>
+                <span class="error" role="alert" data-t="form.err.name">Please enter your name.</span>
+              </div>
+              <div class="field">
+                <label for="f-company" data-t="form.company">Company</label>
+                <input id="f-company" name="company" type="text" autocomplete="organization">
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="field">
+                <label for="f-email" data-t="form.emailLabel">Email</label>
+                <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email">
+                <span class="error" role="alert" data-t="form.err.email">Please enter a valid email address.</span>
+              </div>
+              <div class="field">
+                <label for="f-country" data-t="form.country">Country</label>
+                <input id="f-country" name="country" type="text" autocomplete="country-name">
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-interest"><span data-t="form.interest">Interested in</span><span class="req" aria-hidden="true">*</span></label>
+              <select id="f-interest" name="interest" required>
+                <option value="Basmati Rice" data-t="cat.basmati">Basmati Rice</option>
+                <option value="Specialty Rice" data-t="cat.rice">Specialty Rice</option>
+                <option value="Spices" data-t="cat.spices">Spices</option>
+                <option value="Food Products" data-t="cat.food">Food Products</option>
+                <option value="Private Label / Bulk" data-t="form.opt.bulk">Private label / bulk supply</option>
+                <option value="Partnership / Supplier" data-t="form.opt.partner">Partnership / becoming a supplier</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-message"><span data-t="form.message">Message</span><span class="req" aria-hidden="true">*</span></label>
+              <textarea id="f-message" name="message" required aria-describedby="f-message-hint"></textarea>
+              <span class="hint" id="f-message-hint" data-t="form.hint">Include product, quantity and destination city if possible.</span>
+              <span class="error" role="alert" data-t="form.err.message">Please tell us a little about your enquiry.</span>
+            </div>
+            <div class="form__actions">
+              <button class="btn btn--whatsapp" type="submit" data-via="wa"><span data-icon="whatsapp"></span><span data-t="form.sendWa">Send via WhatsApp</span></button>
+              <button class="btn btn--ghost" type="submit" data-via="mail" style="color:var(--royal)"><span data-icon="mail"></span><span data-t="form.sendMail">Send via Email</span></button>
+            </div>
+          </form>
+        </div>
+
+        <div class="prose" data-reveal data-delay="0.1">
+          <p class="eyebrow" data-t="contact.offices.eyebrow">Our offices</p>
+          <h2 class="h3" data-t="contact.offices.title">Find us</h2>
+          <div class="tabs" role="tablist" aria-label="Office locations">
+            <button class="tab" role="tab" aria-selected="true" data-map-tab="Jeddah, Saudi Arabia" data-t="map.jeddah">Jeddah</button>
+            <button class="tab" role="tab" aria-selected="false" data-map-tab="Tabuk, Saudi Arabia" data-t="map.tabuk">Tabuk</button>
+            <button class="tab" role="tab" aria-selected="false" data-map-tab="Jazan, Saudi Arabia" data-t="map.jazan">Jazan</button>
+            <button class="tab" role="tab" aria-selected="false" data-map-tab="Nilambur, Kerala, India" data-t="map.nilambur">Nilambur</button>
+          </div>
+          <div class="map-embed">
+            <iframe id="office-map" title="Jeddah map" src="https://maps.google.com/maps?q=Jeddah%2C%20Saudi%20Arabia&z=12&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <ul class="office-card__list mt-2" role="list">
+            <li><span data-icon="pin"></span><span><b data-t="office.jeddah">Jeddah — Head Office</b><br><span data-t="addr.jeddah">Jeddah, Kingdom of Saudi Arabia</span></span></li>
+            <li><span data-icon="pin"></span><span><b data-t="office.nilambur">Nilambur, Kerala — India</b><br><span data-t="addr.nilambur">Nilambur, Malappuram, Kerala 679329, India</span></span></li>
+            <li><span data-icon="clock"></span><span data-t="hours.ksa">Sat – Thu · 8:00 am – 6:00 pm</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>
